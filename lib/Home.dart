@@ -120,7 +120,7 @@ class _HomeState extends State<Home> {
       builder: (BuildContext context){
         return AlertDialog(
           title: new Text("Atención"),
-          content: new Text("Al seleccionar guardar, podras ver tus elementos selccionados"),
+          content: new Text("Al guardar, podrás ver tus elementos seleccionados"),
           actions: [
             new OutlinedButton(
               style: ButtonStyle(
